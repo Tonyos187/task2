@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: gray;
+    padding: 15px;
+}
+
+.Rocket {
+    display: block;
+    fill: blue;
+    width: 20px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.job {
+    text-align: center;
+    font-weight: 500;
+}
+
+.about {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.about .title {
+    font-size: medium;
+}
+
+.svg {
+    width: 25px;
+    height: 25px;
+}
+
+.svg-h {
+    width: 25px;
+    height: 25px;
+}
+
+.grey-thingy {
+    width: 12px;
+    height: 20px;
+    background-color: grey;
+    display: inline-block;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px rgb(233, 223, 223) solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.contact {
+    height: 200px;
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    gap: 10px;
+}
+
+.contact div div {
+    width: 250px;
+    height: 80px;
+    background-color: rgb(0, 117, 226);
+    border-radius: 6px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.contact div div a {
+    color: white;
+    text-decoration: none;
+}
+
+.follow {
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+
+.follow div svg {
+    margin: 10px;
+}
+
+.svg-p {
+    width: 25px;
+    height: 25px;
+    fill: blue;
+}
+
+.xp {
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+li {
+    width: 250px;
+    height: 80px;
+    background-color: rgb(0, 117, 226);
+    border-radius: 6px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+
+.education {
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+
+.skills {
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+.skills ul{
+    flex-wrap: wrap;
+}
+
+.interests {
+    margin: 15px;
+    border-bottom: 2px rgb(233, 223, 223) solid;
+}
+.interests ul{
+    flex-wrap: wrap;
+}
